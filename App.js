@@ -148,23 +148,23 @@ const styles = StyleSheet.create({
   },
   result:{
     flex: 2,
-    backgroundColor: 'red',
+    backgroundColor: 'white',
     justifyContent:'center',
     alignItems:'flex-end'
   },
   calculation:{
     flex:1,
-    backgroundColor: 'green',
+    backgroundColor: 'white',
     justifyContent:'center',
     alignItems:'flex-end'
   },
   calculationText:{
     fontSize:20,
-    color:'white'
+    color:'black'
   },
   resultText:{
     fontSize:26,
-    color:'white'
+    color:'black'
   },
   btn:{
     flex:1,
@@ -174,6 +174,7 @@ const styles = StyleSheet.create({
   },
   btnText:{
     fontSize: 30,
+    color: 'white'
   },
   buttons:{
       flex: 7,
@@ -181,11 +182,12 @@ const styles = StyleSheet.create({
   },
   numbers:{
     flex: 3,
-    backgroundColor: 'yellow'
+    backgroundColor: '#434343',
+    color: 'white',
   },
   operators:{
     flex:1,
-    backgroundColor: 'blue'
+    backgroundColor: '#636363'
   },
 
 });
